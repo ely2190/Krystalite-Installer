@@ -1,76 +1,124 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Required meta tags-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <!-- favicons -->
-    <link rel="apple-touch-icon" href="lib/img/logo.jpg">
-    <link rel="icon" type="image/png" sizes="192x192"  href="lib/img/iconRound.png">
-    <link rel="manifest" href="lib/img/fav/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="lib/img/logo.jpg" />
-    <meta name="theme-color" content="#181c1f">
-    <!-- Your app title -->
-    <title>Krystalite</title>
-    <!-- Path to Framework7 iOS CSS theme styles-->
-    <link rel="stylesheet" href="lib/css/framework7.ios.css">
-    <!-- Path to Framework7 iOS related color styles -->
-    <link rel="stylesheet" href="lib/css/framework7.ios.colors.css">
-    <!-- Path to Framework7 Icons -->
-    <link rel="stylesheet" href="lib/css/framework7-icons.css">
-    <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="lib/css/styles.css">
+	<!-- Required meta tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- favicons -->
+	<link rel="apple-touch-icon" href="lib/img/logo.jpg">
+	<link rel="icon" type="image/png" sizes="192x192"  href="lib/img/iconRound.png">
+	<link rel="manifest" href="lib/img/fav/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="lib/img/logo.jpg" />
+	<meta name="theme-color" content="#181c1f">
+	<!-- Your app title -->
+	<title>Krystalite</title>
+	<!-- Path to Framework7 iOS CSS theme styles-->
+	<link rel="stylesheet" href="lib/css/framework7.ios.css">
+	<!-- Path to Framework7 iOS related color styles -->
+	<link rel="stylesheet" href="lib/css/framework7.ios.colors.css">
+	<!-- Path to Framework7 Icons -->
+	<link rel="stylesheet" href="lib/css/framework7-icons.css">
+	<!-- Path to your custom app styles -->
+	<link rel="stylesheet" href="lib/css/my-app.css">
+	<!-- Path to Animate CSS -->
+	<link rel="stylesheet" href="lib/css/animate.css">
+	<!-- Custom Font Link -->
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
   </head>
   <body class="layout-dark-blue theme-green">
-    <!-- Status bar overlay for full screen mode (PhoneGap) -->
-    <div class="statusbar-overlay"></div>
-    <!-- Views -->
-    <div class="views">
-      <!-- Your main view, should have "view-main" class -->
-      <div class="view view-main">
-        <!-- Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="left"><a href="https://github.com/Krystalite/Krystalite-Installer/" class="link external"><i class="f7-icons">social_github_fill</i></a></div>
-            <div class="center">Krystalite</div>
-            <div class="right"><a href="info.html" class="link"><i class="f7-icons">info_fill</i></a></div>
-          </div>
-        </div>
-        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-          <!-- Page, "data-page" contains page name -->
-          <div data-page="index" class="page">
-            <!-- Scrollable page content -->
-            <div class="page-content">
-              
-              
-              <p class="centered" style="margin: 50px"><img src="lib/img/logoNoBack.png" width="300px" /></p>
-              
-              <h1 class="centered">Krystalite</h1>
-              
-            </div>
-          </div>
-        </div>
-        <div class="view toolbar tabbar tabbar-labels">
-    <div class="toolbar-inner">
-        <a href="index.html" class="link active">
-            <i class="f7-icons">home_fill</i>
-            <span class="tabbar-label">Home</span>
-        </a>
-        <a href="search.html" class="link">
-            <i class="f7-icons">search_strong</i>
-            <span class="tabbar-label">Search</span>
-        </a>
-    </div>
+	<!-- Status bar overlay for full screen mode (PhoneGap) -->
+	<div class="statusbar-overlay"></div>
+	<!-- Views -->
+	<div class="views">
+	  <!-- Your main view, should have "view-main" class -->
+	  <div class="view view-main">
+		<!-- Top Navbar-->
+		<div class="navbar">
+		  <div class="navbar-inner">
+			<div class="left"><a href="https://github.com/Krystalite/Krystalite-Installer/" class="link external"><i class="f7-icons">social_github_fill</i></a></div>
+			<div class="center">Krystalite</div>
+			<div class="right"><a href="info.html" class="link"><i class="f7-icons">info_fill</i></a></div>
+		  </div>
+		</div>
+		<!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+		<div class="pages navbar-through toolbar-through">
+		  <!-- Page, "data-page" contains page name -->
+		  <div data-page="index" class="page">
+			<!-- Scrollable page content -->
+			<div class="page-content">
+			  <div class="animated flipInY">
+				<p class="centered" style="margin-top: 50px;"><img src="lib/img/logoNoBack.png" width="300px" /></p>
+				<p class="centered" style="font-size: 50px;">Krystalite</p>
+			  </div>
+			  
+				<div class="list-block">
+				  <ul>
+					<li>
+					  <a href="https://github.com/Krystalite/Krystalite-Installer" class="item-link external item-content">
+						<div class="item-media"><i class="f7-icons">social_github_fill</i></div>
+						<div class="item-inner">
+						  <div class="item-title">GitHub Page</div>
+						  <div class="item-after">Contribute!</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="http://twitter.com/KrystaliteApp" class="item-link external item-content">
+						<div class="item-media"><i class="f7-icons color-blue">social_twitter_fill</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Twitter</div>
+						  <div class="item-after">Follow</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="search.html" class="item-link link item-content">
+						<div class="item-media"><i class="f7-icons color-green">search_strong</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Find Stuff</div>
+						  <div class="item-after">Start Searching</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="featured.html" class="item-link link item-content">
+						<div class="item-media"><i class="f7-icons color-yellow">star_fill</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Featured</div>
+						  <div class="item-after">New? Try This!</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="view toolbar tabbar tabbar-labels">
+	<div class="toolbar-inner">
+		<a href="index.html" class="link active">
+			<i class="f7-icons">home_fill</i>
+			<span class="tabbar-label">Home</span>
+		</a>
+		<a href="search.html" class="link">
+			<i class="f7-icons">search_strong</i>
+			<span class="tabbar-label">Search</span>
+		</a>
+		<a href="https://github.com/Krystalite/Krystalite-Installer" class="external link">
+			<i class="f7-icons">social_github_fill</i>
+			<span class="tabbar-label">GitHub</span>
+		</a>
+	</div>
 </div>
-      </div>
-    </div>
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="lib/js/framework7.js"></script>
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="lib/js/script.js"></script>
+	  </div>
+	</div>
+	<!-- Path to Framework7 Library JS-->
+	<script type="text/javascript" src="lib/js/framework7.js"></script>
+	<!-- Path to your app js-->
+	<script type="text/javascript" src="lib/js/my-app.js"></script>
   </body>
-</html>              
+</html> 

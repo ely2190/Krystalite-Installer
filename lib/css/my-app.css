@@ -1,0 +1,9 @@
+body{
+	font-family: 'Didact Gothic', sans-serif;
+}
+.centered{
+	text-align: center;
+}
+.rounded{
+	border-radius: 20%;
+}
