@@ -17,3 +17,4 @@ The Krystalite webapp source code lies here.
 - Dont put files in random places
 - Pretty code is prefered
 - Signed apps are prefered
+- Fixing things or adding features is welcome
